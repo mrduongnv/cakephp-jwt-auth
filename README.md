@@ -1,8 +1,8 @@
 # CakePHP JWT Authenticate plugin
 
-[![Build Status](https://img.shields.io/travis/ADmad/cakephp-jwt-auth/master.svg?style=flat-square)](https://travis-ci.org/ADmad/cakephp-jwt-auth)
-[![Coverage](https://img.shields.io/coveralls/ADmad/cakephp-jwt-auth/master.svg?style=flat-square)](https://coveralls.io/r/ADmad/cakephp-jwt-auth)
-[![Total Downloads](https://img.shields.io/packagist/dt/ADmad/cakephp-jwt-auth.svg?style=flat-square)](https://packagist.org/packages/ADmad/cakephp-jwt-auth)
+[![Build Status](https://img.shields.io/travis/mrduongnv/cakephp-jwt-auth/master.svg?style=flat-square)](https://travis-ci.org/mrduongnv/cakephp-jwt-auth)
+[![Coverage](https://img.shields.io/coveralls/mrduongnv/cakephp-jwt-auth/master.svg?style=flat-square)](https://coveralls.io/r/mrduongnv/cakephp-jwt-auth)
+[![Total Downloads](https://img.shields.io/packagist/dt/mrduongnv/cakephp-jwt-auth.svg?style=flat-square)](https://packagist.org/packages/mrduongnv/cakephp-jwt-auth)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.txt)
 
 Plugin containing AuthComponent's authenticate class for authenticating using
@@ -16,7 +16,7 @@ specification in detail [here](https://tools.ietf.org/html/draft-ietf-oauth-json
 ## Installation
 
 ```sh
-composer require admad/cakephp-jwt-auth:1.0.x-dev
+composer require mrduongnv/cakephp-jwt-auth:1.0.x-dev
 ```
 
 ## Usage
@@ -25,13 +25,13 @@ In your app's `config/bootstrap.php` add:
 
 ```php
 // In config/bootstrap.php
-Plugin::load('ADmad/JwtAuth');
+Plugin::load('mrduongnv/JwtAuth');
 ```
 
 or using cake's console:
 
 ```sh
-./bin/cake plugin load ADmad/JwtAuth
+./bin/cake plugin load mrduongnv/JwtAuth
 ```
 
 ## Configuration:
@@ -46,7 +46,7 @@ Setup `AuthComponent`:
         
         $this->loadComponent('Auth', [
             'authenticate', [
-                'ADmad/JwtAuth.Jwt' => [
+                'mrduongnv/JwtAuth.Jwt' => [
                     'parameter' => '_token',
                     'userModel' => 'Users',
                     'scope' => ['Users.active' => 1],
