@@ -1,5 +1,5 @@
 <?php
-namespace ADmad\JwtAuth\Auth;
+namespace mrduongnv\JwtAuth\Auth;
 
 use Cake\Auth\BaseAuthenticate;
 use Cake\Controller\ComponentRegistry;
@@ -19,7 +19,7 @@ use Abraham\TwitterOAuth\TwitterOAuth;
  *
  * ```
  *  $this->Auth->config('authenticate', [
- *      'ADmad/JwtAuth.Jwt' => [
+ *      'mrduongnv/JwtAuth.Jwt' => [
  *          'parameter' => '_token',
  *          'userModel' => 'Users',
  *          'scope' => ['User.active' => 1]
@@ -30,7 +30,7 @@ use Abraham\TwitterOAuth\TwitterOAuth;
  *  ]);
  * ```
  *
- * @copyright 2014 A. Sarela aka ADmad
+ * @copyright 2015 mrduongnv
  * @license MIT
  * @see http://jwt.io
  * @see http://tools.ietf.org/html/draft-ietf-oauth-json-web-token

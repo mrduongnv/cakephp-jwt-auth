@@ -1,5 +1,5 @@
 {
-    "name": "admad/cakephp-jwt-auth",
+    "name": "mrduongnv/cakephp-jwt-auth",
     "type": "cakephp-plugin",
     "description": "CakePHP plugin for authenticating using JSON Web Tokens",
     "keywords":[
@@ -8,18 +8,18 @@
         "authentication",
         "jwt"
     ],
-    "homepage": "http://github.com/ADmad/cakephp-jwt-auth",
+    "homepage": "http://github.com/mrduongnv/cakephp-jwt-auth",
     "authors": [
         {
-            "name":"ADmad",
+            "name":"mrduongnv",
             "role":"Author",
-            "homepage":"https://github.com/ADmad"
+            "homepage":"https://github.com/mrduongnv"
         }
     ],
     "license": "MIT",
     "support": {
-        "source":"https://github.com/ADmad/cakephp-jwt-auth",
-        "issues":"https://github.com/ADmad/cakephp-jwt-auth/issues"
+        "source":"https://github.com/mrduongnv/cakephp-jwt-auth",
+        "issues":"https://github.com/mrduongnv/cakephp-jwt-auth/issues"
     },
     "require": {
         "cakephp/cakephp": "~3.0",
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ADmad\\JwtAuth\\": "src"
+            "mrduongnv\\JwtAuth\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ADmad\\JwtAuth\\Test\\": "tests"
+            "mrduongnv\\JwtAuth\\Test\\": "tests"
         }
     },
     "extra": {
